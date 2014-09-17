@@ -1,0 +1,115 @@
+#ASSEMBLY_ID    NA12878-200-37-ASM
+#BATCH_FILE_NUMBER  1
+#BATCH_OFFSET   0
+#FIELD_SIZE 460800
+#FORMAT_VERSION 2.0
+#GENERATED_AT   2011-Oct-08 00:33:17.041145
+#GENERATED_BY   exportTools
+#LANE   L01
+#LIBRARY    GS00664-CLS_G03
+#SAMPLE GS00362-DNA_C04
+#SLIDE  GS21184-FS3
+#SOFTWARE_VERSION   2.0.0.26
+#TYPE   READS
+
+>flags  reads   scores
+5	tagaatgaagaagacttacNctcctcgttctattcaggagNgctgaggcacaggagaatt	######################################################################	Loc: 231138601 Gap: -3 -1 398 -1 -2  Error: 0 Ch_Name: chr1
+5	GAATTCTTTATAAGCAATTNATTTAAGAGctgaagtgtctNttggatatcatatccacgt	######################################################################	Loc: 166262178 Gap: -2 -1 389 -1 -5  Error: 0 Ch_Name: chr1
+5	TGACTCAAAAAAAACTGTTNCAAGAGAagcAATCAATTCGNAAGAGTGCCGTGCCCACTT	######################################################################	Loc: 114241432 Gap: -4 -1 406 -1 -5  Error: 0 Ch_Name: chr1
+5	tccacccggggggtgacagNagcctgagtcGTTTTGATAANGAAGCTATTTATTCTGGGA	######################################################################	Loc: 236765893 Gap: -2 -1 389 -1 -4  Error: 0 Ch_Name: chr1
+5	ACTTAGTAAATAAACATTTNGGTGCCTAAGagcactttggNgaggccgagccgaggcggg	######################################################################	Loc: 67207141 Gap: -4 -1 400 -1 -5  Error: 0 Ch_Name: chr1
+5	AGCACCTCCTCCTCCTGAGNGGGGCCCTCTAGAGTGATGANTAATATTGATGATaacaat	######################################################################	Loc: 243458115 Gap: -6 -1 407 -1 -3  Error: 0 Ch_Name: chr1
+5	cacctccctgctggttcaaNgtgattctcccccctttacaNgtcatattttatttacttg	######################################################################	Loc: 233665123 Gap: -3 -1 400 -1 -5  Error: 0 Ch_Name: chr1
+5	CTAACCATGTTGTTAGGCTNCTCCTTTTGCGGTCAGAAGTNTTTCTTCAATTCAAAGGCT	######################################################################	Loc: 71231769 Gap: -3 -1 394 -1 -5  Error: 0 Ch_Name: chr1
+5	CTTTTTTTTTTTGGTATATNGTTAGTAAATAACAATGCATNTGCTTTATATATAGATCAT	######################################################################	Loc: 172979728 Gap: -2 -1 402 -1 -4  Error: 0 Ch_Name: chr1
+5	attacccagtccagtatacNgagttttatcACACACCCCCNTCTGGGGTAGTACCCCTAC	######################################################################	Loc: 183796886 Gap: -5 -1 421 -1 -3  Error: 0 Ch_Name: chr1
+5	TATTTCAAAAAAATACGTANGAAAAAAGAAAGGATGTTGANTAGACAAAAAAAAGCTCAG	######################################################################	Loc: 242846291 Gap: -3 -1 403 -1 -4  Error: 0 Ch_Name: chr1
+5	ATAATATTTTTATTTTTTCNGAATTATAACttcatgtggcNtggagctattatgtctcga	######################################################################	Loc: 184803526 Gap: -6 -1 410 -1 -3  Error: 0 Ch_Name: chr1
+5	GACCCAGTGAGACCCAACANGATACATTTCATAGGTCACANGCTGTAGCTGCTCGTACTA	######################################################################	Loc: 7492716 Gap: -2 -1 407 -1 -3  Error: 0 Ch_Name: chr1
+5	ggtctctgtcctctgtcacNaatctactgtaaaatattcaNtcttttgttttgttttatt	######################################################################	Loc: 96588294 Gap: -7 -1 396 -1 -5  Error: 0 Ch_Name: chr1
+5	GAGATTCAAACAAATACTGNTAGTAATTAGgagatggagtNctcaatttccaatttcttg	######################################################################	Loc: 149123415 Gap: -4 -1 393 -1 -7  Error: 0 Ch_Name: chr1
+5	ataatctcagtctcagcacNtttgggaggcgcatgtggctNattcagtttgttttcccag	######################################################################	Loc: 84353895 Gap: -6 -1 413 -1 -4  Error: 0 Ch_Name: chr1
+5	ACATGGACTGCTGCCTTCCNTACAGGACACTCTGCCAAGGNATGCTACAGACAGGGCTTT	######################################################################	Loc: 64735053 Gap: -3 -1 390 -1 -4  Error: 0 Ch_Name: chr1
+5	GGTCCACAGCACAGCGCCGNAGCCCACCTAAGTTTGCTGGNGTTGAGCCAGCCAAGAACA	######################################################################	Loc: 18564593 Gap: -5 -1 373 -1 -4  Error: 0 Ch_Name: chr1
+5	aaaagatttatatacctccNttctggtcaaagaggcgggtNtttctccatctccatgtta	######################################################################	Loc: 159199145 Gap: -2 -1 392 -1 -6  Error: 0 Ch_Name: chr1
+5	gagggaaacacaacacacaNgtggggcctgacaggtattaNtcagttttcttccaaaaat	######################################################################	Loc: 187754618 Gap: -2 -1 394 -1 -3  Error: 0 Ch_Name: chr1
+5	ttacgcagctagctagtgcNatgagtgaaaGCCGGGAGAANGGAGGAGGGGCAGGATGGA	######################################################################	Loc: 27846465 Gap: -4 -1 379 -1 -1  Error: 0 Ch_Name: chr1
+5	gtgacaccgccgcactccaNgcctgggcagagcactttagNaaggccaagaaggtaggag	######################################################################	Loc: 6212260 Gap: -3 -1 400 -1 -3  Error: 0 Ch_Name: chr1
+5	ttttgatacaatacaggttNctcacccaggaacaaaaaacNtcaaccccacaatttaaac	######################################################################	Loc: 225549506 Gap: -5 -1 391 -1 -2  Error: 0 Ch_Name: chr1
+5	ATCCACTTATATCATTAACNTCTCCTTAAGtcagctatagNacttaagtagtattccata	######################################################################	Loc: 245212345 Gap: -2 -1 399 -1 -3  Error: 0 Ch_Name: chr1
+5	gtccttcaacaacattctgNctaaattaaaTCAAAGAGCTNGTGCAAAATGCAAAATAGA	######################################################################	Loc: 185863745 Gap: -3 -1 398 -1 -7  Error: 0 Ch_Name: chr1
+5	atggatagattagatgcatNgcatgcatggGGTAAGAGGANAGATGCTGGGGTGCTAAAT	######################################################################	Loc: 165761318 Gap: -5 -1 393 -1 -2  Error: 0 Ch_Name: chr1
+5	TCATTCCTTCTTCCTTCAANtcatttattcGAAGACAATTNCACCTAATAATACCTAGAA	######################################################################	Loc: 98710003 Gap: -7 -1 399 -1 -3  Error: 0 Ch_Name: chr1
+5	cactgcaagcaagctctgcNctccggggttTTTGGGCTCTNGCAGGTTAAAACGAGAGGG	######################################################################	Loc: 216598586 Gap: -4 -1 408 -1 -2  Error: 0 Ch_Name: chr1
+5	GGTTAAAGAAAGAATACCCNAGAGGGggtgccagcactttNgggaggctgggctgaggcg	######################################################################	Loc: 149609803 Gap: -4 -1 403 -1 -5  Error: 0 Ch_Name: chr1
+5	acacatttcccaaatttctNctcacccaaatctgcttttcNtgatgttattatcgctttt	######################################################################	Loc: 81141518 Gap: -1 -1 392 -1 -3  Error: 0 Ch_Name: chr1
+5	GTATAAATATAAATATATANTTTTATacacGGATTAGGAANGCCCACACAACACAGCCCC	######################################################################	Loc: 4278418 Gap: -6 -1 414 -1 -5  Error: 0 Ch_Name: chr1
+5	caaggtataaagcagagttNgttatatttgAGCTCAATGGNCATTGGTGTGTGTTCTGAG	######################################################################	Loc: 88778651 Gap: -1 -1 408 -1 -4  Error: 0 Ch_Name: chr1
+5	gaaggcacaggcacaggaaNcatttatgtaTATAATGAAANGAAATCCATCATAAATAAA	######################################################################	Loc: 116530310 Gap: -6 -1 396 -1 -3  Error: 0 Ch_Name: chr1
+5	cccaaaaggtaaaaggtcaNaaggtccaggCCCATCTGAANCAATAATTCAATTCTAAGA	######################################################################	Loc: 89865054 Gap: -7 -1 412 -1 -5  Error: 0 Ch_Name: chr1
+5	ataatgtgtgtgtgtgaagNcttcctaagtCTTTTCTTGANAGATATTGCTATTGCTATC	######################################################################	Loc: 148019835 Gap: -6 -1 400 -1 -6  Error: 0 Ch_Name: chr1
+5	TAGGCATACTTTGCTGTTTNTCTCACAGCCgtaaggtttcNccggagagaagagaaagaa	######################################################################	Loc: 168002245 Gap: -1 -1 397 -1 -5  Error: 0 Ch_Name: chr1
+5	tttagatttttttttaaaaNaattaccttaaacaactattNcaggctttctttctatttt	######################################################################	Loc: 29495522 Gap: -4 -1 411 -1 -4  Error: 0 Ch_Name: chr1
+5	ACGTCATTCCTCCTTGTCCNTGAGCTACTCcctggccCAANATCTATTCTCTATTTTTAA	######################################################################	Loc: 91638509 Gap: -3 -1 386 -1 -2  Error: 0 Ch_Name: chr1
+5	acggtggctcgctcatgccNtataatcccattctttaaatNcaacaaaataaatactaaa	######################################################################	Loc: 22191781 Gap: -4 -1 398 -1 -4  Error: 0 Ch_Name: chr1
+5	gtatagtgttgtgtttataNcagtgtacagtGGGAAGACANTCCATGAAAGAAATATTGT	######################################################################	Loc: 155324914 Gap: -5 -1 395 -1 -4  Error: 0 Ch_Name: chr1
+5	ggaaaaccaaaccaaatatNtgtatgttctttagatcatcNaggtgatagatagatattt	######################################################################	Loc: 29533903 Gap: -5 -1 416 -1 -4  Error: 0 Ch_Name: chr1
+5	atccatctgatctgacaaaNgggctaatataatcattctaNtgataaagaaagacacatg	######################################################################	Loc: 230150071 Gap: -5 -1 399 -1 -4  Error: 0 Ch_Name: chr1
+5	atcacctgaggaggtcaggNagtttgagacTTAAAAAAAGNCATAATTCTAATTCTAAAt	######################################################################	Loc: 142777807 Gap: -3 -1 395 -1 -6  Error: 0 Ch_Name: chr1
+5	CCACAACACACACATCCAANTTCTTTGCAAAGCAGGAAAANGGATATACCCCAAAATAAC	######################################################################	Loc: 153913204 Gap: -4 -1 396 -1 -2  Error: 0 Ch_Name: chr1
+5	TGGTAAAGAAAGAAGCAGANTGGATGGACAATGTGAATTCNCTTCTTCCTCTTCCTGCGG	######################################################################	Loc: 53891496 Gap: -4 -1 384 -1 -6  Error: 0 Ch_Name: chr1
+5	tgtttttctctttctcttaNtcttttgttacatcaaattaNtatacttaattaaattgga	######################################################################	Loc: 51688807 Gap: -6 -1 407 -1 -4  Error: 0 Ch_Name: chr1
+5	TTAACCCTCCACCCTCCTGNCTATCCCACCgtagtcccagNctactcgggtcgggaggct	######################################################################	Loc: 38171250 Gap: -7 -1 411 -1 -5  Error: 0 Ch_Name: chr1
+5	TTGAGCCATGATGGTCCAANATAATTTACTactcactcaaNcatcatgagatgagaacag	######################################################################	Loc: 185967558 Gap: -3 -1 386 -1 -5  Error: 0 Ch_Name: chr1
+5	taacttggatatAGTGATGNGACAGTGACATGAAACTGAGNGGAATGTGCCAGAGACAAG	######################################################################	Loc: 108208973 Gap: -2 -1 415 -1 -1  Error: 0 Ch_Name: chr1
+5	aatcccagcaagcactttgNggaggccgaggaggaaaacaNtagatttaaaactggatag	######################################################################	Loc: 243268139 Gap: -4 -1 401 -1 -2  Error: 0 Ch_Name: chr1
+5	GAGCCTAGGGAGGGCTGGCNTGCAGTGGAGCTCCAGAGACNCCCGCTCCTCTGGCGGGGT	######################################################################	Loc: 226588925 Gap: -4 -1 398 -1 -2  Error: 0 Ch_Name: chr1
+5	TTGAGGCTCCCTCCTCCACNCCTCATCCCGAGCgtattcaNctttctgtgtgtggctgct	######################################################################	Loc: 6939507 Gap: -4 -1 414 -1 -4  Error: 0 Ch_Name: chr1
+5	ctggtctcgatcgaactccNtggcctcaagtttttgaggcNagacgaaatacgaaattct	######################################################################	Loc: 7779173 Gap: -4 -1 380 -1 -7  Error: 0 Ch_Name: chr1
+5	attctgggtcgggtcttttNatggctccatCACATACCAGNCTGGGGTAGGGTAGTGGCT	######################################################################	Loc: 160387905 Gap: -5 -1 405 -1 -5  Error: 0 Ch_Name: chr1
+5	CAAAAGTTAATTAAGTTATNATAATATGGCGGGCCGTTTTNGTTGCTGCCGCCCAGTGGG	######################################################################	Loc: 87755422 Gap: -4 -1 399 -1 -3  Error: 0 Ch_Name: chr1
+5	ggcctccactcactagaatNgtaaggtcccCTGCCCCTGGNTGGAGCCAGGCCAGTTCAC	######################################################################	Loc: 110562710 Gap: -4 -1 388 -1 -5  Error: 0 Ch_Name: chr1
+5	AttttagaaaagaaataaaNaattttaaaaaaaccacagaNgatagctagctagaaattt	######################################################################	Loc: 186998907 Gap: -5 -1 411 -1 -4  Error: 0 Ch_Name: chr1
+5	TCTTGACTTTACTTTTGTTNCACAAAATCCTACATAGGAANGACTGAGATAGATGAAAGG	######################################################################	Loc: 57973978 Gap: -5 -1 405 -1 -4  Error: 0 Ch_Name: chr1
+5	gaatcgcttgttgaacctgNggaggcggagataagtaaatNaaaatacgtacgtaaaaaa	######################################################################	Loc: 153419604 Gap: -3 -1 385 -1 -4  Error: 0 Ch_Name: chr1
+5	caaataagccagcccaaggNgactgaatccttggaaacttNaatattcgattcgaattca	######################################################################	Loc: 34782879 Gap: -4 -1 398 -1 -5  Error: 0 Ch_Name: chr1
+5	gcactccagtagtcacttgNgctgactacttcctcatttcNtctggactgctgaaatgtg	######################################################################	Loc: 160237412 Gap: -3 -1 397 -1 -3  Error: 0 Ch_Name: chr1
+5	cctattttcctcctccctcNccttcgttccatgttatccgNttgttttaatttaatgtgc	######################################################################	Loc: 217346456 Gap: -3 -1 395 -1 -5  Error: 0 Ch_Name: chr1
+5	ACTGCCCACTCACTACAGGNAGTCTATGGATATGCCTAACNTCCCTCGCCCGCCATCTTA	######################################################################	Loc: 242639948 Gap: -4 -1 389 -1 -4  Error: 0 Ch_Name: chr1
+5	gaaaacaggggatataagtNtttcactttgtttaatctgtNggagtcatccagaaacaga	######################################################################	Loc: 236465178 Gap: -1 -1 398 -1 -1  Error: 0 Ch_Name: chr1
+5	ttataaaatgaaaatgaccNttccacgtgattcggcattcNatttgttttttttgagcac	######################################################################	Loc: 236933062 Gap: -6 -1 388 -1 -3  Error: 0 Ch_Name: chr1
+5	CAAGAAATTGAATTGTGACNTAGCAAAATTactagtcactNgtctgctcttctgtgtgcc	######################################################################	Loc: 187912464 Gap: -5 -1 407 -1 -3  Error: 0 Ch_Name: chr1
+5	CAGCAGAACCCCTGGTCTCNTTCTGTGTTACCTCTGTCTTNCCAGCTTATTATAAGATGT	######################################################################	Loc: 146107509 Gap: -2 -1 399 -1 -3  Error: 0 Ch_Name: chr1
+5	ataagtaaaaaaaaaataaNataaatCTACAAGCTAGTAGNCAggccagagccagacaca	######################################################################	Loc: 93720318 Gap: -4 -1 400 -1 -6  Error: 0 Ch_Name: chr1
+5	AAATATTTGTTGTTGGGTTNAAAGGATCTTCTCTAGAGACNAGAAAGACCAGACCTTTCT	######################################################################	Loc: 92341379 Gap: -3 -1 399 -1 -5  Error: 0 Ch_Name: chr1
+5	tgtgtgtgtgtgtgtgtgtNgtgtgCAGGGGAGTGGCATANCCTGGCTCCTCCTGGGCTC	######################################################################	Loc: 233013414 Gap: -4 -1 400 -1 -3  Error: 0 Ch_Name: chr1
+5	CACTGTGAGGGAGGGCACANGGGAAGGCTGAACGCCAAGCNACACGACTGCGACTGGAGG	######################################################################	Loc: 68468711 Gap: -4 -1 411 -1 -6  Error: 0 Ch_Name: chr1
+5	GGATCCTGCCCCTGCCGGTNGTCTGCGGTGAGGACCTTTCNTCAAGGGAGAAGGGAGTCA	######################################################################	Loc: 229417653 Gap: -6 -1 398 -1 -7  Error: 0 Ch_Name: chr1
+5	ttacaccctcccctcaagtNgatccaggctgggaggctgaNggcaggagagagaatggcg	######################################################################	Loc: 32295442 Gap: -5 -1 413 -1 -4  Error: 0 Ch_Name: chr1
+5	gcattcacttcacttgatgNtggacaagtaatgcAGAGACNTCAAATATTAAATATTTAT	######################################################################	Loc: 99691216 Gap: -5 -1 411 -1 -7  Error: 0 Ch_Name: chr1
+5	tgtctgagccagcctcagtNttctgtatctACCCTGCCACNTTgggcgcggcggtggctc	######################################################################	Loc: 224846790 Gap: -4 -1 404 -1 -3  Error: 0 Ch_Name: chr1
+5	tccacctgccctgccttggNcctcccaaagGCTCACTTATNTGAACATATATATATTATG	######################################################################	Loc: 61497220 Gap: -5 -1 401 -1 -4  Error: 0 Ch_Name: chr1
+5	aggccgaggtgaggtgggcNagatcatgagcttgcccctgNagtgggcctggcctaggct	######################################################################	Loc: 153618674 Gap: -5 -1 400 -1 -5  Error: 0 Ch_Name: chr1
+5	TTGCTTTAGGGTGAAACCANTCAGAGCTCTAATTTTATTTNTAGAACTGCTGCATTTTTG	######################################################################	Loc: 195740084 Gap: -1 -1 401 -1 -3  Error: 0 Ch_Name: chr1
+5	GTAAAATGTATATGGTTATNTATTATTATTAAAGGAAACANAACTCCATCATCTCTAAAA	######################################################################	Loc: 75574412 Gap: -2 -1 381 -1 -3  Error: 0 Ch_Name: chr1
+5	gtgaaggaccggacctcttNcaaggataaccaaaaacaagNaaatggggaggaaaggatt	######################################################################	Loc: 90489580 Gap: -5 -1 409 -1 -3  Error: 0 Ch_Name: chr1
+5	CCAACTAAGAAAGACAAAGNGAGTTTTCCCggctcactgcNaacccctgcctgcctcctg	######################################################################	Loc: 199090994 Gap: -4 -1 397 -1 -4  Error: 0 Ch_Name: chr1
+5	tttgtttgtcctgtgccctNgcccccagaggcgcccactgNtctggcactctccctagtg	######################################################################	Loc: 105193433 Gap: -1 -1 409 -1 -2  Error: 0 Ch_Name: chr1
+5	ggagtgcagtgcagtggcgNcaatctcggcGAAATCCAAANAATCTAGGAAGGAACCACT	######################################################################	Loc: 44968285 Gap: -5 -1 392 -1 -4  Error: 0 Ch_Name: chr1
+5	tcttatttcttcttttcacNgagaagccagtgtcacttctNatgctgattattccatctc	######################################################################	Loc: 179483462 Gap: -3 -1 400 -1 -3  Error: 0 Ch_Name: chr1
+5	cagaagcaaacaaaagtctNctttgctaaacttacatggcNaacaggagggaggggattg	######################################################################	Loc: 64849828 Gap: -4 -1 420 -1 -4  Error: 0 Ch_Name: chr1
+5	GAGCACAAGAAGACAGACGNAGGAGTCATCTGCAAACAGGNTGTTTACTGCTGGAGGCTG	######################################################################	Loc: 36724891 Gap: -3 -1 398 -1 -3  Error: 0 Ch_Name: chr1
+5	ccattgcactgcactccagNcctgggcgacCATCTGCCTCNTGAGGGCCCCCCGCCTGCC	######################################################################	Loc: 201690613 Gap: -5 -1 407 -1 -3  Error: 0 Ch_Name: chr1
+5	TGTCTACTAGCTAGAATAGNCATCAACAAACTTTCAAAGTNCACCAATAAATAAACATAC	######################################################################	Loc: 174905664 Gap: -4 -1 371 -1 -4  Error: 0 Ch_Name: chr1
+5	agctgtaatcaatcacaacNactttgggagaaattaaaatNtagccaggcgccaggcttg	######################################################################	Loc: 114723506 Gap: -4 -1 413 -1 -7  Error: 0 Ch_Name: chr1
+5	GATGACAGACGACAGACTGNCCTTCTGAGTCCAAGGCCCCNAGCTCCAGGCCAGGGTCTG	######################################################################	Loc: 208641711 Gap: -3 -1 397 -1 -5  Error: 0 Ch_Name: chr1
+5	CCTATTTCAATTCAACATGNTATTCCTAATgtattacacaNaccagtccacatcaacaaa	######################################################################	Loc: 148951032 Gap: -5 -1 395 -1 -2  Error: 0 Ch_Name: chr1
+5	GACTGGGCCAGCCACAAATNATTGTAGAAGtgttcaactcNccacttatggagtgagaac	######################################################################	Loc: 177770775 Gap: -4 -1 395 -1 -1  Error: 0 Ch_Name: chr1
+5	aaattaatgtaatgtaaccNtctctttttgaagataaatgNagacagaaagaaaacaaaa	######################################################################	Loc: 51251721 Gap: -5 -1 416 -1 -4  Error: 0 Ch_Name: chr1
+5	ctgaggcaggaggagaatcNactcaaacccgacttggtttNctattgcatgcatgcagcc	######################################################################	Loc: 117069810 Gap: -3 -1 409 -1 -4  Error: 0 Ch_Name: chr1
+5	ctgtcattagttagccacaNgcgtggctgagtggcacgtgNcctgcggtctcccagctac	######################################################################	Loc: 19255000 Gap: -4 -1 387 -1 -2  Error: 0 Ch_Name: chr1
+5	ttacaatccttcctttagcNtagacacagagaggagcagaNaaaaaATTTTGCAATCTGT	######################################################################	Loc: 187796578 Gap: -4 -1 405 -1 -1  Error: 0 Ch_Name: chr1
+5	ttttctttctcttttttttNttttttttttGGAGGAGGGCNTTTGAGCTCAGCTCTTGGG	######################################################################	Loc: 227364277 Gap: -2 -1 405 -1 -5  Error: 0 Ch_Name: chr1
+5	gtaaataaataatacaaatNttaaaTGGAAagcatattagNtgaagtcccccggaaccct	######################################################################	Loc: 212455134 Gap: -3 -1 398 -1 -2  Error: 0 Ch_Name: chr1
+5	atgcatggatggatggatgNaatgggtggggaaaaagaaaNagatgaaagaaagaagaaa	######################################################################	Loc: 119794764 Gap: -4 -1 390 -1 -4  Error: 0 Ch_Name: chr1
+5	tatatatacatacacacccNacatatttgacatgtgatgtNggttgctccttgctcccct	######################################################################	Loc: 86638870 Gap: -4 -1 390 -1 -7  Error: 0 Ch_Name: chr1

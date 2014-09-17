@@ -1,0 +1,25 @@
+#ASSEMBLY_ID    NA12878-200-37-ASM
+#BATCH_FILE_NUMBER  1
+#BATCH_OFFSET   0
+#FIELD_SIZE 460800
+#FORMAT_VERSION 2.0
+#GENERATED_AT   2011-Oct-08 00:33:17.041145
+#GENERATED_BY   exportTools
+#LANE   L01
+#LIBRARY    GS00664-CLS_G03
+#SAMPLE GS00362-DNA_C04
+#SLIDE  GS21184-FS3
+#SOFTWARE_VERSION   2.0.0.26
+#TYPE   READS
+
+>flags  reads   scores
+01 CTTTGGTATGATGTGTTTGAAACCTGAGAGtaggtaaactttgtgtcatgtggggggttg	######################################################################	Loc: 219133189 Gap: -3 -1 298 -1 -2  Error: 0 Ch_Name: chr1
+02 acgagaatcacaattgaaccccaggaaatgctggggaggcctgaagcaaggcaagaggat	######################################################################	Loc: 154256766 Gap: -2 -1 289 -1 -5  Error: 0 Ch_Name: chr1
+03 ACAAGATCAATCAAAAATCAAACTGTGAAAGGAATGGAGAACACAAGTCAAGTCATCTAA	######################################################################	Loc: 104236922 Gap: -4 -1 306 -1 -5  Error: 0 Ch_Name: chr1
+04 CTGCTCGGCACATCAGTGGCCAATACCTGCacatttttaccatggaatagatagagatgt	######################################################################	Loc: 222759579 Gap: -2 -1 289 -1 -4  Error: 0 Ch_Name: chr1
+05 ACTATCTTAATTAAGTTGACCTTTTCATTCACAGATAGGCCTAGAAGAATAGAATCAAAG	######################################################################	Loc: 57202631 Gap: -4 -1 300 -1 -5  Error: 0 Ch_Name: chr1
+06 gaccaactccaactcctccttcctccacctagaggtgacaaacctgccagcagcagccct	######################################################################	Loc: 231452703 Gap: -6 -1 307 -1 -3  Error: 0 Ch_Name: chr1
+07 CTTTAATTTATTAATTAATGGCTCTCCATGatattaggaccatgctcttctcttcttgtt	######################################################################	Loc: 233665123 Gap: -3 -1 300 -1 -5  Error: 0 Ch_Name: chr1
+08 aaataatTTATTAAGAAATTTTggccaggtAACATACCTAAGCAGAACACAACACTGGAC	######################################################################	Loc: 57225455 Gap: -3 -1 294 -1 -5  Error: 0 Ch_Name: chr1
+09 acaaagtgagagactccgtcctcaaaaaaaTCAAATGTAAATAATAGATAGATATGGAgg	######################################################################	Loc: 160974316 Gap: -2 -1 302 -1 -4  Error: 0 Ch_Name: chr1
+10 GTAGGTTAAGTTAAGATTTCCTTTTCTTTTgttactttattttaattgtagtagttctct	######################################################################	Loc: 169790572 Gap: -5 -1 321 -1 -3  Error: 0 Ch_Name: chr1
