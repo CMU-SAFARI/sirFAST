@@ -1,4 +1,4 @@
-#############################sirFAST Fast and Accurate Mapping of Complete Genomics Reads
+sirFAST Fast and Accurate Mapping of Complete Genomics Reads
 
 sirFAST is a read mapper that is designed to map short reads to reference genome with a special emphasis on the discovery of structural variation and segmental duplications. sirFAST maps short reads with respect to user defined error threshold. This manual, describes how to choose the parameters and tune sirFAST with respect to the library settings. sirFAST is designed to find 'all'  mappings for a given set of reads, however it can return one "best" map location if the relevant parameter is invoked.
 
@@ -6,6 +6,7 @@ NOTE: sirFAST is developed for Complete Genomics (CG), thus requires all reads t
 
 
 ############################# Sample Set #############################
+
 We have provided a simple test to make sure sirFAST is working on your system properly. The sample files are in the Sample_Data folder. We provide a small template reference genome (sample_genome.fa) and a small test read sets (sample_reads_e0). The sample read set is generated with no error.
 
 The first step is to make an index of the refernece genome as follow:
@@ -26,7 +27,6 @@ $>./sirfast --search Sample_Data/sample_genome.fa --seq Sample_Data/sample_reads
 
 The output you should see on your screen is:
 
-WARNING: Sample_Data/sample_genome.fa.fai not found, the SAM file(s) will not have a header.
 You can generate the .fai file using samtools. Please place it in the same directory with the index to enable SAM headers.
 === 1996 sequences are read in 0.00. (0 discarded) [Mem:323.33 M] ===
 -------------------------------------------------------------------------------------------------------------
@@ -45,7 +45,18 @@ Avg No. of locations verified:         0
 			
 
 This command generates two files. One is the Sample_Data/out.sam which contains the mapping of the reads and unmapped files which containts the unmapped reads.
-General
+
+Note: when running sirFAST with your own reference genome file, if you see a message similar to:
+
+WARNING: Sample_Data/sample_genome.fa.fai not found, the SAM file(s) will not have a header.
+
+this simply means that the header in the output SAM file will be missing. To fix this, you can use samtools to generate an index file:
+
+samtools faidx sample_genome.fa
+
+
+#########################  General #########################
+
 Please download the latest version from our download page and then unzip the downloaded file. Run 'make' to build sirFAST.
 
     sirFAST
@@ -80,38 +91,36 @@ rm -rf *.o
 	
 
 
-Parallelization: The best way to optimize sirFAST is to split the reads into chunks that fit into the memory of the cluster nodes, and implement an MPI wrapper in an embarrassingly parallel fashion. We recommend the following criteria to split the reads:
+Parallelization: The best way to optimize sirFAST is to split the reads into chunks that fit into the memory of the cluster nodes, and implement an MPI wrapper in an embarrassingly parallel fashion. There is a multi-threaded version in the works (OMP directory), but it is not fully functional yet. We recommend the following criteria to split the reads:
 
     Single End Mode: The number of reads should be approximately ((M-600)/(4*L)) million where M is the size of the memory for the cluster node (in megabytes) and L is the read length. If you have more nodes, you can make the chunks smaller to use the nodes efficiently. For example, if the library length is 50bp and the memory of nodes is 2 GB, each chunk should contain (2000-600)/(4*50)= 7 million reads.
     Paired End Mode: The number of reads in each file should not exceed 1 million (500,000 pairs), however chunk size of 500,000 reads (250,000 pairs)  is recommended.
+
 
 
 To see the list of options, use "-h" or "--help".
 To see the version of sirFAST, user "-v" or "--version".
 
 ############################# Indexing #############################
-#############################          #############################
-#############################          #############################
+
 sirFAST's indices can be generated in one mode (single). In single mode, sirFAST indexes a fasta file (which may contain one or more reference genomes).
 
 By default sirFAST uses the window size of 10 characters to generate its index. Please be advised that if you do not choose the window size carefully, you will lose sensitivity.
 
-#############################Single Genome Mode:
 To index a reference genome like "refgen.fasta" run the following command:
 
 $>./sirfast --index refgen.fasta
 
-Upon the completion of the indexing phase, you can find "refgen.fasta.index" in the same directory as "refgen.fasta". sirFAST uses a window size of 12 (default) to make the index of the genome, this windows size can be modified with "--ws". There is a restriction on the maximum of the window size as the window size directly affects the memory usage.
-
-$>./sirfast --index refgen.fasta --ws 13
+Upon the completion of the indexing phase, you can find "refgen.fasta.index" in the same directory as "refgen.fasta". sirFAST uses a window size of 10 (default) to make the index of the genome since the CG reads are in 10+10+10+5 bp format.
 
 ############################# Mapping #############################
-#############################         #############################
-#############################         #############################
-sirFAST can map single-end reads and paired-end reads to a reference genome. sirFAST can map in either single or batch mode. In single mode, it only maps to one index. In batch mode, it maps to a list of indices. sirFAST supports tsv formats.
 
-############################# Single-end Reads - Single Mode
-To map single reads to a reference genome in single mode, run the following command. Use "--seq" to specify the input file. refgen.fa and refgen.fa.index should be in the same folder. You can load a multi-sequence FASTA file as the reference genome.
+
+sirFAST can map single-end reads and paired-end reads to a reference genome. sirFAST can map in either single or batch mode. sirFAST supports tsv format native to Complete Genomics data.
+
+############################# Single-end Reads - Single Mode #########################
+
+To map single reads to a reference genome in single mode, run the following command. Use "--seq" to specify the input file. refgen.fa and refgen.fa.index should be in the same folder. 
 
 $>./sirfast --search refgen.fa --seq reads.tsv
 
@@ -123,7 +132,8 @@ By default, sirFAST reports all the locations per read. If you need one "best" m
 
 $>./sirfast --search refgen.fasta --seq reads.tsv -e 3 --best
 
-############################# Paired-end Reads
+############################# Paired-end Reads #########################
+
 To map paired-end reads, use "--pe" option. The mapping can be done in single/batch mode. If the reads are in two different files, you have to use "--seq1/--seq2" to indicate the files. If the reads are interleaved, use "--seq" to indicated the file. The distance allowed between the paired-end reads should be specified with "--min" and "--max". "--min" and "--max" specify the minmum and maximum of the inferred size (the distance between outer edges of the mapping mates).
 
 $>./sirfast --search refgen.fasta --pe --seq reads.tsv --min 150 --max 250 
@@ -136,8 +146,7 @@ $>./sirfast --search refgen.fasta --pe --discordant-vh --seq reads.tsv --min 50 
 
 
 ############################# Parameters #############################
-#############################            #############################
-#############################            #############################
+
 
 General Options:
 
@@ -146,14 +155,12 @@ General Options:
 -h 	Shows the help screen.
     
 
-############################# Indexing Options:
+############################# Indexing Options: #########################
 
       
 --index [file]  Generate an index from the specified fasta file.
--ws [int] 	Set window size for indexing (default:10 max:14).
-    
-
-############################# Searching Options:
+   
+############################# Searching Options: #########################
 
 --search [file]  
 	Search the specified genome. Index file should be in same directory as the fasta file.
@@ -218,8 +225,7 @@ output.DIVET.vh file ("-o" option changes the prefix "output"): This file includ
 output_OEA file: Contains the OEA (One-End-Anchored) reads (paired-end reads where only one read can be mapped to the genome). The output is in SAM format, contains the map location of read that can be mapped to the genome. The unmapped reads of an OEA read pair are not reported in separate lines; instead the sequence and quality information is given in the line that specifies the map location of the mapped read. We use optional fields NS and NQ to specify the unmapped sequence and unmapped quality information. This file can be loaded by NovelSeq tool for novel sequence discovery ( Still on progress! ), however format conversion might be required; please see the NovelSeq documentation.
 
 NOTE: sirFAST will report many (up to 100 by default) possible map locations for the "mapped" read of OEA  
-matepais. This will generate a large file due to repeats and duplications. This file can be limited through the --maxoea parameter ( Still in progress! ).
-
+matepairs. This will generate a large file due to repeats and duplications. This file can be limited through the --maxoea parameter.
 
 
 
