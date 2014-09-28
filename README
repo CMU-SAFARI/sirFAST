@@ -9,7 +9,7 @@ NOTE: sirFAST is developed for Complete Genomics (CG), thus requires all reads t
 
 We have provided a simple test to make sure sirFAST is working on your system properly. The sample files are in the Sample_Data folder. We provide a small template reference genome (sample_genome.fa) and a small test read sets (sample_reads_e0). The sample read set is generated with no error.
 
-The first step is to make an index of the refernece genome as follow:
+The first step is to make an index of the reference genome as follows:
 
 $>./sirfast --index Sample_Data/sample_genome.fa
 
