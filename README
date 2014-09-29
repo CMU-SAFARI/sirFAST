@@ -21,7 +21,7 @@ Generating Index from Sample_Data/sample_genome.fa
 
 DONE in 0.31s!
 
-The second step is to make an index of the refernece genome as follow:
+The second step is to make an index of the reference genome as follows:
 
 $>./sirfast --search Sample_Data/sample_genome.fa --seq Sample_Data/sample_reads_e0 -e 0 -o Sample_Data/out.sam
 
@@ -46,6 +46,7 @@ Avg No. of locations verified:         0
 
 This command generates two files. One is the Sample_Data/out.sam which contains the mapping of the reads and unmapped files which containts the unmapped reads.
 
+#############################################################################
 Note: when running sirFAST with your own reference genome file, if you see a message similar to:
 
 WARNING: Sample_Data/sample_genome.fa.fai not found, the SAM file(s) will not have a header.
@@ -53,7 +54,7 @@ WARNING: Sample_Data/sample_genome.fa.fai not found, the SAM file(s) will not ha
 this simply means that the header in the output SAM file will be missing. To fix this, you can use samtools to generate an index file:
 
 samtools faidx sample_genome.fa
-
+#############################################################################
 
 #########################  General #########################
 
@@ -131,6 +132,9 @@ $>./sirfast --search refgen.fasta --seq reads.tsv -o my.map
 By default, sirFAST reports all the locations per read. If you need one "best" mapping add the "--best" parameter to the command line:
 
 $>./sirfast --search refgen.fasta --seq reads.tsv -e 3 --best
+
+
+Note that Complete Genomics generates reads in two different formats. The earlier read type generates reads of 5-10-10-10 subreads with expected gaps in between; where the second read type is in 10-9-10 structure. sirFAST supports both read types through the "-f" parameter. See below for more about read type selection.
 
 ############################# Paired-end Reads #########################
 
